@@ -56,6 +56,8 @@ apply plugin: "io.spring.dependency-management"
     ext {
         springBootVersion ='1.5.8.RELEASE'
         springVersion = '4.3.12.RELEASE'
+        poiVersion='3.15'
+        easypoiVersion = '3.0.3'
     }
 
 // In this section you declare the dependencies for your production and test code
@@ -67,6 +69,24 @@ dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot-configuration-processor', version: "$springBootVersion"
 
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web',version:"$springBootVersion"
+
+
+    compile group: 'cn.afterturn', name: 'easypoi-annotation', version: "$easypoiVersion"
+    compile group: 'cn.afterturn', name: 'easypoi-base', version: "$easypoiVersion"
+    compile group: 'cn.afterturn', name: 'easypoi', version: "$easypoiVersion", ext: 'pom'
+    compile group: 'cn.afterturn', name: 'easypoi-web', version: "$easypoiVersion"
+
+
+    compile group: 'org.apache.poi', name: 'poi', version:"$poiVersion"
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version:"$poiVersion"
+    compile group: 'org.apache.poi', name: 'poi-scratchpad', version:"$poiVersion"
+    compile(group: 'org.apache.poi', name: 'poi-ooxml-schemas', version:"$poiVersion") {
+        exclude(module: 'xercesImpl')
+    }
+    compile group: 'xerces', name: 'xercesImpl', version:'2.9.1'
+    compile group: 'com.itextpdf', name: 'itextpdf', version:'5.5.6'
+    compile group: 'com.itextpdf', name: 'itext-asian', version:'5.2.0'
+    compile group: 'org.apache.commons',name: 'commons-lang3',version: '3.3.2'
 
     // Declare the dependency for your favourite test framework you want to use in your tests.
     // TestNG is also supported by the Gradle Test task. Just change the
