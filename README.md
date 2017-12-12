@@ -4,4 +4,14 @@
 Gradle 引入方式
 compile group: 'cn.afterturn',name:'easypoi-spring-boot-starter',version:'0.1.1'
 
+Maven 引入方式
+```xml
+<dependency>
+    <groupId>cn.afterturn</groupId>
+    <artifactId>easypoi-spring-boot-starter</artifactId>
+    <version>0.1.1</version>
+</dependency>
+
+```
+
 需要spring-boot-starter-web 来支持
