@@ -2,7 +2,9 @@
 支持spring boot 快速引入
 
 Gradle 引入方式
+``` groovy
 compile group: 'cn.afterturn',name:'easypoi-spring-boot-starter',version:'0.1.1'
+```
 
 Maven 引入方式
 ```xml
