@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.afterturn</groupId>
     <artifactId>easypoi-spring-boot-starter</artifactId>
-    <version>0.3-SNAPSHOT</version>
+    <version>3.2.0</version>
     <packaging>jar</packaging>
-    <name>asypoi-spring-boot-starter</name>
+    <name>easypoi-spring-boot-starter</name>
 
     <url>https://gitee.com/lemur/easypoi-spring-boot-starter</url>
     <description>office 工具类 基于 poi</description>
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>cn.afterturn</groupId>
             <artifactId>easypoi-web</artifactId>
-            <version>3.1.1-SNAPSHOT</version>
+            <version>3.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>

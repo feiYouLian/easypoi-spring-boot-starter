@@ -11,10 +11,12 @@ Maven 引入方式
 <dependency>
     <groupId>cn.afterturn</groupId>
     <artifactId>easypoi-spring-boot-starter</artifactId>
-    <version>0.2</version>
+    <version>3.2.0</version>
 </dependency>
 
 ```
 
 需要spring-boot-starter-web 来支持
 不需要在配置@ComponentScan("cn.afterturn.easypoi")
+
+和easypoi版本保持一致
