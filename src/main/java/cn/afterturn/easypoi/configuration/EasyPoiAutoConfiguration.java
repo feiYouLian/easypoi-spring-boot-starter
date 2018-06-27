@@ -1,9 +1,7 @@
 package cn.afterturn.easypoi.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
-import org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,7 +12,7 @@ import org.springframework.web.servlet.view.BeanNameViewResolver;
  * Created by xfworld on 2017-11-22.
  **/
 @Configuration
-@AutoConfigureAfter(WebMvcAutoConfiguration.class)
+//@AutoConfigureAfter(WebMvcAutoConfiguration.class)
 @EnableConfigurationProperties(EasyPoiProperties.class)
 //@ConditionalOnClass
 //easy.poi.base.enable 不存在默认为true，若存在==true则创建，否则==false不创建
