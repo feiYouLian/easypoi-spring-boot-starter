@@ -3,7 +3,7 @@
 
 Gradle 引入方式
 ``` groovy
-compile group: 'cn.afterturn',name:'easypoi-spring-boot-starter',version:'0.2'
+compile group: 'cn.afterturn',name:'easypoi-spring-boot-starter',version:'3.3.0'
 ```
 
 Maven 引入方式
@@ -11,7 +11,7 @@ Maven 引入方式
 <dependency>
     <groupId>cn.afterturn</groupId>
     <artifactId>easypoi-spring-boot-starter</artifactId>
-    <version>3.2.0</version>
+    <version>3.3.0</version>
 </dependency>
 
 ```
