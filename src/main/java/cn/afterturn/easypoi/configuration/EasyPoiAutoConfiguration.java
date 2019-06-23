@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.view.BeanNameViewResolver;
 
 /**
- * Created by xfworld on 2017-11-22.
+ * @author  xfworld on 2017-11-22.
  **/
 @Configuration
 //@AutoConfigureAfter(WebMvcAutoConfiguration.class)
