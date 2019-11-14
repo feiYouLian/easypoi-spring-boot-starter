@@ -7,8 +7,8 @@
     <packaging>jar</packaging>
     <name>easypoi-spring-boot-starter</name>
 
-    <url>https://gitee.com/lemur/easypoi-spring-boot-starter</url>
-    <description>office 工具类 基于 poi</description>
+    <url>http://opensource.afterturn.cn/</url>
+    <description>office utils base poi</description>
 
     <licenses>
         <license>
@@ -18,19 +18,26 @@
     </licenses>
 
     <scm>
-        <connection>https://gitee.com/lemur/easypoi-spring-boot-starter.git</connection>
-        <developerConnection>https://gitee.com/lemur/easypoi-spring-boot-starter.git</developerConnection>
-        <url>https://gitee.com/lemur/easypoi-spring-boot-starter.git</url>
+        <connection>https://github.com/jueyue/easypoi.git</connection>
+        <developerConnection>https://github.com/jueyue/easypoi.git</developerConnection>
+        <url>https://github.com/jueyue/easypoi.git</url>
     </scm>
 
     <developers>
         <developer>
             <name>JueYue</name>
-            <email>qrb.jueyue@foxmail.com</email>
-            <organization>Easypoi</organization>
-            <organizationUrl>http://www.Easypoi.org</organizationUrl>
+            <email>quranbo@foxmail.com</email>
+        </developer>
+        <developer>
+            <name>魔幻之翼</name>
+            <email>xf.key@163.com</email>
         </developer>
     </developers>
+
+    <organization>
+        <name>Lumer</name>
+        <url>http://opensource.afterturn.cn/</url>
+    </organization>
 
     <properties>
         <spring-boot.version>2.1.5.RELEASE</spring-boot.version>
